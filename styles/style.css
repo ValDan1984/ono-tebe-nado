@@ -8,12 +8,9 @@ body {
     padding: 92px 49px 92px 51px;
     display: flex;
     flex-direction: row;
-
 }
 
 .header_menu {
-    height: 23px;
-    width: 389px;
     margin: 43px 211px 43px 0;
 }
 
