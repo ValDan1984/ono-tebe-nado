@@ -11,7 +11,7 @@ body {
 }
 
 .header_menu {
-    margin: 43px 220px 43px 0;
+    margin: 43px 215px 43px 0;
     white-space: nowrap;
 }
 
@@ -39,11 +39,12 @@ body {
     width: 147px;
     align-self: center;
     padding: 0 10px 10px 0;
+    flex-shrink: 0;
 }
 
 .address {
 
-    margin: 5px 0 7px 355px;
+    margin: 5px 0 7px 352px;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
