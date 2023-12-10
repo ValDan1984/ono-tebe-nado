@@ -56,6 +56,8 @@ body {
     z-index: auto;
     padding: 165px 50px 0 50px;
     position: relative;
+    color: white;
+    text-transform: uppercase;
 }
 
 .overlay {
@@ -72,32 +74,61 @@ body {
 }
 
 .cover_title {
-    border: 1px solid white;
-    height: 355px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 11px;
+}
+
+.aligned-text {
+    line-height: 100%;
+}
+
+.aligned-text_center {
+   text-align: center;
+}
+
+.aligned-text_right {
+    text-align: end;
+    margin-right: -30px;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 60px;
 }
 
 .cover_description {
     display: flex;
-}
-
-.cover_description-text {
-    border: 1px solid whitesmoke;
     font-size: 22px;
     color: #fff;
     align-self: center;
+}
+
+.cover_description-text {
     font-weight: 400;
-    line-height: 28px; /* 127.273% */
-    text-transform: uppercase;
+    line-height: 28px;
     margin: 147px 78px 62px 372px;
     word-spacing: 17px;
-    width: 633px;
+}
+
+.letter-spacing {
+    letter-spacing: 25px;
 }
 
 .bet-button {
-    border: 1px solid black;
+    border: 1px solid white;
     height: 52px;
-    width: 257px;
-    margin: 135px 0 50px 0;
+    width: 256px;
+    margin: 135px 0 50px 3px;
+    background: transparent;
+    font-size: 22px;
+    color: #fff;
+    align-self: center;
+    text-transform: uppercase;
 }
 
 .lots {
