@@ -151,6 +151,7 @@ body {
 .lots_card-list {
     color: white;
     display: flex;
+    flex-direction: row;
     gap: 25px;
     margin-bottom: 30px;
 }
