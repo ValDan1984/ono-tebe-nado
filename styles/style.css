@@ -61,6 +61,8 @@ body {
     position: sticky;
     text-transform: uppercase;
     background-image: url(../images/cover.jpg);
+    width: 1440px;
+    height: 757px;
 }
 
 .overlay {
